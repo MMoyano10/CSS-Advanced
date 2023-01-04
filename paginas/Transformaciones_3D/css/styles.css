@@ -1,0 +1,166 @@
+body{
+    font-family:arial,helvetica;
+    
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #e707f3;
+  }
+
+div{
+    margin-top: 20px;
+    font-size:20px;
+    text-align:center;
+    box-sizing:border-box;
+}
+
+div div{
+    padding-top: 20px;
+
+}
+.no-presBox{
+    width: 200px;
+    height: 150px;
+    margin :0 0 70px 100px;
+    background: rgb(0, 0, 0);
+}
+
+.presBox{
+    width: 200px;
+    height: 150px;
+    margin :0 0 70px 100px;
+    background: rgb(0, 0, 0);
+}
+
+#box{
+    width: 200px;
+    height: 150px;
+    background: pink;
+    
+    transform: rotateX(0deg);
+    transition:transform 1s;
+}
+#box:hover{
+    transform: rotateX(180deg);
+}
+#boxi{
+    width: 200px;
+    height: 150px;
+    background: pink;
+    
+    transform:perspective(800px) rotateX(0deg);
+    transition:transform 1s;
+}
+#boxi:hover{
+    transform:perspective(800px) rotateX(180deg);
+}
+#box2{
+    width: 200px;
+    height: 150px;
+    background: tomato;
+    
+    transform: rotateY(0deg);
+    transition:transform 1s;
+    
+}
+#box2:hover{
+    transform:rotateY(180deg);
+}
+#box2i{
+    width: 200px;
+    height: 150px;
+    background: tomato;
+    
+    transform:perspective(800px)  rotateY(0deg);
+    transition:transform 1s;
+    
+}
+#box2i:hover{
+    transform:perspective(800px)  rotateY(180deg);
+}
+#box3{
+    width: 200px;
+    height: 150px;
+    background: yellowgreen;
+    
+    transform: rotateZ(0deg);
+    transition:transform 1s;				
+}
+#box3:hover{
+    transform: rotateZ(180deg);
+}
+#box4{
+    width: 200px;
+    height: 150px;
+    background: lightblue;	
+    
+    transform:rotateY(60deg) translateZ(0px);
+    transition:transform 1s;		
+}
+#box4:hover{
+    transform:  rotateY(60deg) translateZ(200px);
+}
+
+#box4i{
+    width: 200px;
+    height: 150px;
+    background: lightblue;	
+    
+    transform: perspective(800px) rotateY(60deg) translateZ(0px);
+    transition:transform 1s;		
+}
+#box4i:hover{
+    transform: perspective(800px)  rotateY(60deg) translateZ(200px);
+}
+
+#box42{
+    width: 200px;
+    height: 150px;
+    background: lightblue;	
+    
+    transform: perspective(800px) rotateY(60deg) translateX(0px);
+    transition:transform 1s;		
+}
+#box42:hover{
+    transform: perspective(800px)  rotateY(60deg) translateX(200px);
+}
+
+#box5{
+    width: 200px;
+    height: 150px;
+    background: lightgreen;	
+    
+    transform:scaleZ(1)  rotateX(60deg);
+    transition:transform 1s;		
+}
+#box5:hover{
+    transform: scaleZ(3)  rotateX(60deg);
+}
+
+#box5i{
+    width: 200px;
+    height: 150px;
+    background: lightgreen;	
+    
+    transform:perspective(800px) scaleZ(1)  rotateX(60deg);
+    transition:transform 1s;		
+}
+#box5i:hover{
+    transform:perspective(800px) scaleZ(3)  rotateX(60deg);
+}
+#box52{
+    width: 200px;
+    height: 150px;
+    background: lightgreen;	
+    
+    transform:perspective(800px) scaleZ(1)  rotateX(60deg);
+    transition:transform 1s;		
+}
+#box52:hover{
+    transform:perspective(800px) scaleZ(6)  rotateX(60deg);
+}

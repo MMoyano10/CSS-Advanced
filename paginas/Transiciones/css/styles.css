@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #edf4f0;
+  }
+  
+  .header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #e707f3;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+  
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+  }
+  
+.gallery::after {
+    content: "";
+    width: 350px;
+    transition: width 2s, height 2s, transform 3s;
+  }
+
+  #object1:hover {
+    width: 400px;
+    height: 350px;
+    transition: width 2s, height 2s, transform 1s;
+  }
+  #object2:hover{
+    width: 400px;
+    height: 350px;
+    transform: rotate(180deg);
+    transition: width 2s, height 2s, transform 2s;
+  }
+  #object3:hover{
+    height: 400px;
+    transition: 500ms;
+  }
+  #object4:hover {
+    transition-delay: 1s;
+    transition: 500ms;
+    width: 400px;
+    height: 350px;
+    transform: rotate(90deg);
+}
+#object5:hover{
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    width: 400px;
+    height: 350px;
+  }
+  #object6:hover {
+    width: 400px;
+    height: 350px;
+    transition: width 2s, height 2s, transform 1s;
+  }
+  #object7:hover {
+    transition-delay: 1s;
+    width: 400px;
+    height: 350px;
+}
+#object8:hover{
+    height: 400px;
+    transition: 500ms;
+  }
+  #object9:hover{
+    width: 400px;
+    height: 350px;
+    transform: rotate(720deg);
+    transition: width 2s, height 2s, transform 5s;
+  }

@@ -1,0 +1,25 @@
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #47074a;
+    text-shadow: 3px 3px 10px rgb(127, 248, 246);
+}
+.all{
+    display: flex;
+}
+.image{
+    padding-left:15% ;
+    padding-top: 100px;
+}
+.image2{
+    padding-left:8% ;
+    padding-top: 100px;
+    display: flex;
+}
+
+img{
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(45, 84, 214, 0.1)));
+}

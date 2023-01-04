@@ -1,0 +1,30 @@
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+  }
+
+.box {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://t4.ftcdn.net/jpg/02/61/80/55/360_F_261805519_1dBCfei509IeCIZNTYFHV2VwHsBbuEJl.jpg) 30 round;
+    display: flex;
+    flex-direction: column;
+    background-color: #d09b4d;
+}
+h1{
+    font-style: italic;
+    font-size: xx-large;
+    text-align: center;
+}
+#mars-border{
+    display: flex;
+    background-color: rgb(144, 144, 88);
+    justify-content: space-around;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://i.pinimg.com/474x/f6/0e/29/f60e293258442cff7426b4d3b18676db.jpg) 30 round;
+}

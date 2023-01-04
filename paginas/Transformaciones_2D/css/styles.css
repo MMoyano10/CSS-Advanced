@@ -1,0 +1,72 @@
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #e707f3;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f5f6f7;
+  }
+
+  
+  .all-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+  
+.all-boxes img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 2px solid black;
+  }
+  
+.all-boxes::after {
+    content: "";
+    width: 350px;
+  }
+
+#object1:hover{
+    transform: translate(0px, 150px);
+}
+#object2:hover{
+    transform: rotate(90deg);
+}
+#object3:hover{
+    transform: rotate(-45deg);
+}
+#object4:hover{
+    transform:scale(0.5,0.5);
+}
+#object5:hover{
+    transform:scale(1.1,1.1);
+}
+#object6:hover{
+    transform: scaleX(1.2);
+    transform: skewX(45deg);
+    
+}
+#object7:hover{
+    transform: scaleY(0.5);
+    transform: skewY(45deg);
+}
+#object8:hover{
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}

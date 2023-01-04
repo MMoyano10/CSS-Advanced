@@ -1,0 +1,56 @@
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #e707f3;
+    text-shadow: 3px 3px 10px rgb(127, 248, 246);
+}
+    h2{
+        color: rgb(155, 21, 128);
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+        text-align: center;
+        font-size:xx-large;
+    }
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+   
+  }
+.div1 {
+    width: 420px;
+    height: 250px;
+    border: 3px solid blue;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: aqua;
+    box-shadow: 10px 10px;
+
+  }
+  
+  .div2 {
+    width: 400px;
+    height: 270px;  
+    border: 3px solid red;
+    box-sizing: border-box;
+    box-shadow: 10px 20px;
+  }
+
+  .div2 img{
+    padding-left: 20px;
+    width: 350px;
+    height: 150px;
+    box-shadow:  8px 5px rgb(130, 30, 245)
+  }
+  .div3 .polaroid {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(6, 43, 252, 0.2), 0 6px 20px 0 rgba(34, 6, 244, 0.19);
+    text-align: center;
+  }
+  
+  .div3 .container {
+    padding: 10px;
+  }
